@@ -23,7 +23,7 @@ def fileGrabber():
     path = pathStripper(path)
     if ncChecker(path):
         print(f"File '{path}' works.")
-        # Here you can add code to process the file as needed
+        # add stuff i guess
     else:
         print("We don't ball")
         os.system.exit(1)
